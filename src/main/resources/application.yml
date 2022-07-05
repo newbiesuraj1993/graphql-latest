@@ -1,0 +1,12 @@
+graphql:
+  playground:
+    mapping: /playground
+    endpoint: /graphql
+    subscriptionEndpoint: /subscriptions
+    staticPath:
+      base: /vendor/playground/
+    enabled: true
+    pageTitle: Playground
+    cdn:
+      enabled: false
+      version: latest
